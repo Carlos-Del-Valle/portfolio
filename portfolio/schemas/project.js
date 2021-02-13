@@ -1,4 +1,5 @@
-export default{
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
     name: "project",
     title: "Project",
     type: "document",
@@ -28,9 +29,9 @@ export default{
             type: "string",
             options: {
                 list: [
-                    { value: "personal", title: "Personal"},
-                    { value: "client", title: "Client"},
-                    { value: "school", title: "School"},
+                    { value: "personal", title: "Personal" },
+                    { value: "client", title: "Client" },
+                    { value: "school", title: "School" },
                 ],
             },
         },
